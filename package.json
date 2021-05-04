@@ -5,8 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "lite-server": "lite-server"
+    "start":"cd server && npm start",
+    "install": "cd server && npm i",
+    "lite-server": "lite-server",
   },
   "repository": {
     "type": "git",
