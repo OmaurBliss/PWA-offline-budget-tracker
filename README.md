@@ -1,70 +1,53 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
-
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
-
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
-
-Offline Functionality:
-
-  * Enter deposits offline
-
-  * Enter expenses offline
-
-When brought back online:
-
-  * Offline entries should be added to tracker.
-
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
-
-## Business Context
-
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+# PWA offline budget tracker
 
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-- - -
+## Description 
 
-## Commit Early and Often
+This budget tracker allows users to track deposits and withdrawls without internet or data access. Tracker totals will update once back online. 
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+[Visit PWA offline budget tracker ](https://pwa-offline-budget-t.herokuapp.com/)
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+<img width="1364" alt="Screen Shot 2021-05-06 at 2 10 51 PM" src="https://user-images.githubusercontent.com/74269245/117353162-6abb5280-ae75-11eb-9fb4-80014ca06d4c.png">
 
-* Follow these guidelines for committing:
+## Table of Contents 
 
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+* [Installation](#installation)
+* [Tech](#tech)
+* [Credits](#credits)
+* [License](#license)
+* [Questions](#questions)
 
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+## Installation
+Run the following command to install any necessary packages:
+```
+npm install
+```
+## Tech 
 
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
+- Node JS packages
+- Express
+- Mongoose 
 
-  * Test your application before you commit to ensure functionality at every step in the development process
+```
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+## Credits
 
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
+- Trinh Nyugen
+- [Omaur Bliss](https://github.com/OmaurBliss)
 
-## Submission on BCS
 
-* You are required to submit the following:
+## License
 
-  * the URL to the deployed application
+Distributed under the MIT license.  Full license information:
+Lcensed under the MIT License; you may not use this file except in compliance with the License. You may obtain a copy of the License at:
+https://opensource.org/licenses/MIT
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the License for the specific language governing permissions and limitations under the License.
 
-  * the URL to the Github repository
+## Questions
+Please feel free to reach out with any questions:
 
-- - -
 
-## Hint
-
-* In order to cache dynamic content, i.e. users' inputs for withdrawals or deposits, incorporate `indexedDB` from the previous module.
-
-* Use [Google](https://www.google.com) or another search engine to research this topic.
+- Omaur Bliss: omaurbliss@gmail.com
